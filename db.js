@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const url = "mongodb://localhost:27017/quora"
+const url = "mongodb+srv://nazimnn459:JM1tu8xJ8O7ThXVm@cluster0.kurvfdu.mongodb.net/?retryWrites=true&w=majority"
 
 module.exports.connect = () => {
     mongoose
